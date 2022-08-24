@@ -1,20 +1,50 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// Function for answers to the questions and how they will appear in the README.md that will be created
+function generateMarkdown(answers) {
+  return
+  `<h1 align="center">${answers.TitleofProject} </h1>
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+  ##Description
+    ${answers.Description}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+  ##Table of Contents
+    -[Description](#description)
+    -[Installation](#installation)
+    -[Usage](#usage)
+    -[License](#license)
+    -[Contribution](#contribution)
+    -[Tests](#tests)
+    -[Questions](#questions)
 
-`;
+  ##Installation
+    ${answers.installation}
+  
+  ##Usage
+    ${answers.usage}
+  
+  ##License
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+  <br />
+  This application is covered by the ${answers.license} license. 
+
+  ##Contribution
+    ${answers.contribution}
+
+  ##Tests
+    ${answers.tests}
+
+  ##Questions
+    ${answers.questions}  <br />
+    <br />
+    :octocat: Find me on GitHub: [${answers.username}](https://github.com${answers.username})<br /> 
+    <br />
+
+    Email me if you have any questions: [${answers.email}]<br />
+    <br />
+  
+    _This README was created by [README-generator](https://github.com/Aslaviero/Readme-Generator)_
+    `;
 }
 
 module.exports = generateMarkdown;

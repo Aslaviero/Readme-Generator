@@ -22,10 +22,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-How to Install:
-- Open your terminal in VS Code and making sure you're in the correct file
-- Once their type npm init (enter) then npm install inquirer@8.2.4(enter)
-How run it:
-In the same terminal where you were before now you type in node index.js to run the program. It will prompt you to answer questions before creating a README.md for you.
+
 
 Link to video of project working: 

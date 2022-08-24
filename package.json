@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Aslaviero/Readme-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "util": "^0.12.4"
   }
 }
