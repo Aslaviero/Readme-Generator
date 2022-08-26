@@ -1,7 +1,7 @@
 // Function for answers to the questions and how they will appear in the README.md that will be created
 function generateMarkdown(answers) {
-  const holdhere = 
-  ` # ${answers.TitleofProject}
+  return `
+    <h1> ${answers.TitleofProject}</h1>
 
 
 
@@ -23,30 +23,30 @@ function generateMarkdown(answers) {
     - [Questions](#questions)
 
 
-  ## ** Installation **
+  ##  Installation 
     ${answers.installation}
   
 
-  ## ** Usage **
+  ## Usage 
     ${answers.usage}
   
 
-  ## ** License **
+  ## License 
   ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
   
 
   This application is covered by the ${answers.license} license. 
 
 
-  ## ** Contribution **
+  ##  Contribution 
     ${answers.contribution}
 
 
-  ## **Tests**
+  ## Tests
     ${answers.tests}
 
 
-  ## **Questions**
+  ## Questions
     ${answers.questions}  
     
 
@@ -57,10 +57,8 @@ function generateMarkdown(answers) {
     
 
   
-    _This README was created by [README-generator](https://github.com/Aslaviero/Readme-Generator)_
     `;
 
-    return holdhere;
 }
 
 module.exports = generateMarkdown;
