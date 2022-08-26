@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // Added in seperate questions to be asked with node index.js is ran in terminal
@@ -71,12 +71,12 @@ function promptUser(){
 }
 
 //This init function will call in the questions and await for user answer before moving onto the next question then when all questions after answered it should create a README.md file
-async function init() {
+ async function init() {
     try{
         const answers = await promptUser();
         const generateContent = generateMarkdown(answers);
-
-        await writeFileAsync('./dist/README.md'),generateContent.toString();
+        console.log(generateContent)
+        await writeFileAsync('./dist/README.md',JSON.stringify(generateContent));
         console.log('Successfully wrote to README.md');
     } catch(err) {
         console.log(err);
