@@ -1,59 +1,59 @@
 // Function for answers to the questions and how they will appear in the README.md that will be created
 function generateMarkdown(answers) {
   return `
-    <h1> ${answers.TitleofProject}</h1>
+# ${answers.TitleofProject}
 
 
 
-  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
 
 
-  ## ** Description **
-    ${answers.Description}
+## Description
+${answers.Description}
 
 
-  ## ** Table of Contents **
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contribution](#contribution)
-    - [Tests](#tests)
-    - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
 
-  ##  Installation 
-    ${answers.installation}
+##  Installation 
+${answers.Installation}
   
 
-  ## Usage 
-    ${answers.usage}
+## Usage 
+${answers.Usage}
   
 
-  ## License 
-  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+## License 
+![badge](https://img.shields.io/badge/license-${answers.License}-brightgreen)
   
 
-  This application is covered by the ${answers.license} license. 
+This application is covered by the ${answers.License} license. 
 
 
-  ##  Contribution 
-    ${answers.contribution}
+##  Contribution 
+${answers.Contribution}
 
 
-  ## Tests
-    ${answers.tests}
+## Tests
+${answers.Tests}
 
 
-  ## Questions
-    ${answers.questions}  
+## Questions
+${answers.Questions}  
     
 
-    :octocat: Find me on GitHub: [${answers.username}](https://github.com${answers.username})
+Find me on GitHub: [${answers.Username}](https://github.com${answers.Isername})
 
 
-    Email me if you have any questions: [${answers.email}]
+Email me if you have any questions: ${answers.Email}
     
 
   

@@ -54,17 +54,17 @@ function promptUser(){
         },
         {
             type: "input",
-            name: "questions",
+            name: "Questions",
             message: "What do I do if I run into an issue?",
         },
         {
             type: "input",
-            name: "username",
+            name: "Username",
             message: "Please enter GitHub username:",
         },
         {
             type: "input",
-            name: "email",
+            name: "Email",
             message: "Please enter your email:",
         }
     ]);
@@ -76,7 +76,7 @@ function promptUser(){
         const answers = await promptUser();
         const generateContent = generateMarkdown(answers);
         console.log(generateContent)
-        await writeFileAsync('./dist/README.md',JSON.stringify(generateContent));
+        await writeFileAsync('./dist/README.md',generateContent);
         console.log('Successfully wrote to README.md');
     } catch(err) {
         console.log(err);

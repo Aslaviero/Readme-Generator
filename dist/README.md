@@ -1,1 +1,58 @@
-"\n    <h1> food</h1>\n\n\n\n  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)\n\n\n\n  ## ** Description **\n    \n\n\n  ## ** Table of Contents **\n    - [Description](#description)\n    - [Installation](#installation)\n    - [Usage](#usage)\n    - [License](#license)\n    - [Contribution](#contribution)\n    - [Tests](#tests)\n    - [Questions](#questions)\n\n\n  ##  Installation \n    undefined\n  \n\n  ## Usage \n    undefined\n  \n\n  ## License \n  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)\n  \n\n  This application is covered by the undefined license. \n\n\n  ##  Contribution \n    undefined\n\n\n  ## Tests\n    undefined\n\n\n  ## Questions\n      \n    \n\n    :octocat: Find me on GitHub: [](https://github.com)\n\n\n    Email me if you have any questions: []\n    \n\n  \n    "
+
+# readme generator
+
+
+
+![badge](https://img.shields.io/badge/license-undefined-brightgreen)
+
+
+
+## Description
+generatores readme.md file
+
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
+
+
+##  Installation 
+npm i inquirer and nodejs
+  
+
+## Usage 
+generate a readme.md file that is mostly completed.
+  
+
+## License 
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+  
+
+This application is covered by the Apache license. 
+
+
+##  Contribution 
+me, myself, and I.
+
+
+## Tests
+no
+
+
+## Questions
+Email me  
+    
+
+Find me on GitHub: [Aslaviero](https://github.comundefined)
+
+
+Email me if you have any questions: Tonyslaviero@gmail.com
+    
+
+  
+    
